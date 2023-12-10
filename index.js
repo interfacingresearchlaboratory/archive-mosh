@@ -55,7 +55,6 @@ var word = document.getElementById("word")
 const video = async () => {
     vid.innerHTML=""
     let video = Math.floor(Math.random() * (21 + 1))
-    console.log("video", video)
         source.setAttribute('src', `./video/${video}.mp4`)
         source.setAttribute('type', "video/mp4")
         vid.appendChild(source);
